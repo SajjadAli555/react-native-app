@@ -33,6 +33,25 @@ export default function Homepage({ navigation }) {
           navigation.navigate("ColorScreen", { Screen: "ColorScreen" })
         }
       />
+      <Button
+        title="Go to Square Demo"
+        onPress={() =>
+          navigation.navigate("SquareScreen", { Screen: "SquareScreen" })
+        }
+      />
+      <Button
+        title="Go to Text Demo"
+        onPress={() =>
+          navigation.navigate("TextScreen", { Screen: "TextScreen" })
+        }
+      />
+
+      <Button
+        title="Go to Box Demo"
+        onPress={() =>
+          navigation.navigate("BoxScreen", { Screen: "BoxScreen" })
+        }
+      />
     </View>
   );
 }

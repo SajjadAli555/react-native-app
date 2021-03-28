@@ -1,7 +1,7 @@
 import React from "react";
-import { Text, View, StyleSheet,Image } from "react-native";
+import { Text, View, StyleSheet, Image } from "react-native";
 
-const ImageDisplay = ({imageSource,title,score}) => {
+const ImageDisplay = ({ imageSource, title, score }) => {
   console.log(score);
   return (
     <View>
